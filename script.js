@@ -16,5 +16,7 @@ function calcular() {
     let resultado = document.getElementById("resultado").innerHTML
     if (resultado) {
         document.getElementById("resultado").innerHTML = eval(resultado) // Eval() serve para resolver calculos matemáticos.
+    } else {
+        document.getElementById("resultado").innerHTML = "Nada..."
     }
 }
